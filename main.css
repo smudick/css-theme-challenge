@@ -12,21 +12,24 @@ header {
 }
 
 .title-box {
-    border: white 1px double;
-    width: 600px;
+    border-top: white 4px double;
+    border-bottom: white 4px double;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    width: 425px;
     text-align: center;
-    padding: 75px 125px;
+    padding: 45px 100px;
     margin-bottom: 25px;
 }
 
 h1 {
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 h2 {
     font-weight: lighter;
-    margin: 0 0 35px 0;
+    margin: 0 0 40px 0;
     font-size: 30px;
 }
 
@@ -39,4 +42,47 @@ h2 {
 }
 .get-started-btn:hover {
     background-color: #03b5b8;
+}
+main {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.main-section-title {
+    text-align: center;
+    border-bottom: lightgray 5px double;
+    padding: 70px 0px 0px 0px;
+    width: 500px;
+}
+
+.cards-top {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 75px;
+}
+.cards-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 75px;
+}
+
+.card {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    text-align: center;
+}
+
+.card img {
+    width: 25%;
+    padding: 15px;
+}
+
+.card h3, p {
+    padding: 15px;
 }
