@@ -86,3 +86,68 @@ main {
 .card h3, p {
     padding: 15px;
 }
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.footer-title {
+    text-align: center;
+    border-bottom: lightgray 5px double;
+    padding: 70px 0px 40px 0px;
+    width: 215px;
+}
+
+.input-fields {
+    display: flex;
+    flex-flow: row wrap;
+    width: 1000px;
+    justify-content: center;
+}
+
+.name-input {
+    text-align: center;
+    width: 300px;
+}
+
+.name-input input {
+    width: 275px;
+    height: 40px;
+}
+
+.email-input {
+    text-align: center;
+    width: 300px;
+}
+
+.email-input input {
+    width: 275px;
+    height: 40px;
+}
+
+.message-input {
+    text-align: center;
+    width: 1000px;
+    margin: 20px 0;
+}
+
+.message-input input {
+    height: 150px;
+    width: 575px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #00cdcf;
+}
+
+.message-btn {
+    background-color: #555;
+    color: #f7f7f7;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-style: none;
+    margin: 20px 0 40px 0;
+}
